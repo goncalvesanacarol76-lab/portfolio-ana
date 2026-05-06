@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Ana Carolina Gonçalves</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <a href="#sobre" class="active">Sobre</a>
+      <a href="#skills">Skills</a>
+      <a href="#atividades">Atividades</a>
+      <a href="#certificados">Certificados</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="sobre" class="hero">
+    <div class="hero-text">
+      <h1>Oiii, sou a <br><span>Ana Carolina Gonçalves</span></h1>
+      <p>
+        Sou uma <strong>Desenvolvedora de Sistemas</strong> com perfil analítico, unindo tecnologia à eficiência
+        operacional.
+        Com formação técnica e graduanda em ADS pelo <strong>SENAI</strong>, possuo experiência prática na gestão de
+        e-commerce e logística,
+        dominando fluxos de performance e integração de sistemas como o Tiny ERP.
+      </p>
+      <p>
+        Vencedora do <strong>1º lugar no Expo Day SENAI</strong> com o projeto CODE FC, um marketplace que utiliza
+        <strong>Inteligência Artificial para provador Virtual</strong>.
+      </p>
+      <div class="buttons">
+        <button class="btn-fill" onclick="window.open('Cv - Ana Carolina Gonçalves.pdf')">Baixar CV</button>
+        <button class="btn-outline"><a href="#projetos">Ver Projetos</a></button>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="../Portfólio - Ana Carolina Gonçalves/certificados/eu.png" alt="Ana Carolina Gonçalves">
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Minhas Habilidades</h2>
+    <p>Tecnologias, ferramentas e competências que utilizo no dia a dia</p>
+
+    <div class="skills-list">
+      <span>JavaScript</span>
+      <span>Python</span>
+      <span>PHP</span>
+      <span>C#</span>
+      <span>HTML & CSS</span>
+
+      <span>APIs REST</span>
+      <span>Lógica de Programação</span>
+
+      <span>Inteligência Artificial</span>
+
+      <span>SEO</span>
+      <span>Performance em E-commerce</span>
+      <span>Gestão de Marketplaces</span>
+
+      <span>Tiny ERP</span>
+      <span>Logística e Operações</span>
+
+      <span>UX/UI Design</span>
+      <span>Figma</span>
+
+      <span>Git & GitHub</span>
+      <span>Metodologias Ágeis</span>
+      <span>Resolução de Problemas</span>
+      <span>Trabalho em Equipe</span>
+    </div>
+  </section>
+
+  <section id="atividades" class="activities">
+    <h2>Vivência e Projetos</h2>
+    <p>Momentos de aprendizado e colaboração no SENAI, SESI e Mercado</p>
+    <div class="carousel">
+
+      <button class="carousel-btn prev"></button>
+
+      <div class="carousel-track">
+
+        <div class="carousel-item">
+          <img src="../Portfólio - Ana Carolina Gonçalves/certificados/1.JPG">
+          <p>Premiação do projeto Fanáticos FC no Expo Day SENAI</p>
+        </div>
+
+        <div class="carousel-item">
+          <img src="../Portfólio - Ana Carolina Gonçalves/certificados/oba2.jpeg">
+          <p>Medalhista de Bronze pela OBA</p>
+        </div>
+
+        <div class="carousel-item">
+          <img src="../Portfólio - Ana Carolina Gonçalves/certificados/mundo senai.jfif">
+          <p>Monitora do Tour no Evento Mundo Senai</p>
+        </div>
+        <div class="carousel-item">
+          <img src="../Portfólio - Ana Carolina Gonçalves/certificados/opala.jpeg">
+          <p>Auxiliar de logística na Opala Store</p>
+        </div>
+        <div class="carousel-item">
+          <img src="../Portfólio - Ana Carolina Gonçalves/certificados/nota10.jfif">
+          <p>Prêmio de aluna nota 10 em 2019</p>
+        </div>
+      </div>
+
+      <button class="carousel-btn next"></button>
+
+    </div>
+  </section>
+
+  <section id="certificados" class="certificates">
+    <h2>Certificados e Conquistas</h2>
+    <p>Clique em "Ver PDF" para visualizar o comprovante</p>
+
+    <div class="cert-grid">
+      <div class="cert-card" data-pdf="certificados/aws.pdf">
+        <h3>AWS Cloud</h3>
+        <p>Serviços em Nuvem</p>
+        <button class="view-btn">Ver PDF</button>
+      </div>
+
+      <div class="cert-card" data-pdf="certificados/4.0.pdf">
+        <h3>Indústria 4.0</h3>
+        <p>Tecnologias Industriais</p>
+        <button class="view-btn">Ver PDF</button>
+      </div>
+
+      <div class="cert-card" data-pdf="certificados/ingles.pdf">
+        <h3>Inglês - Nível B2</h3>
+        <p>Curso de Inglês</p>
+        <button class="view-btn">Ver PDF</button>
+      </div>
+
+      <div class="cert-card" data-pdf="certificados/excel.pdf">
+        <h3>Excel</h3>
+        <p>Planilhas e Fórmulas</p>
+        <button class="view-btn">Ver PDF</button>
+      </div>
+
+      <div class="cert-card" data-pdf="certificados/privacidade.pdf">
+        <h3>LGPD</h3>
+        <p>Proteção de Dados</p>
+        <button class="view-btn">Ver PDF</button>
+      </div>
+
+      <div class="cert-card" data-pdf="certificados/seguranca.pdf">
+        <h3>Segurança no Trabalho</h3>
+        <p>Normas e Prevenção</p>
+        <button class="view-btn">Ver PDF</button>
+      </div>
+
+      <div class="cert-card" data-pdf="certificados/economia.pdf">
+        <h3>Economia Circular</h3>
+        <p>Sustentabilidade</p>
+        <button class="view-btn">Ver PDF</button>
+      </div>
+
+      <div class="cert-card" data-pdf="certificados/5g.pdf">
+        <h3>Tecnologia 5G</h3>
+        <p>Conectividade</p>
+        <button class="view-btn">Ver PDF</button>
+      </div>
+
+      <div class="cert-card" data-pdf="certificados/informatica.pdf">
+        <h3>Informática Básica</h3>
+        <p>Fundamentos</p>
+        <button class="view-btn">Ver PDF</button>
+      </div>
+
+      <div class="cert-card" data-pdf="certificados/onc.pdf">
+        <h3>Menção Honrosa ONC</h3>
+        <p>Olimpíada Nacional de Ciências</p>
+        <button class="view-btn">Ver PDF</button>
+      </div>
+      <div class="cert-card" data-pdf="certificados/oba.jpeg">
+        <h3>Medalha de Bronze OBA</h3>
+        <p>Olimpíada Brasileira de Astronomia</p>
+        <button class="view-btn">Ver PDF</button>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Meus Projetos</h2>
+    <p>Alguns projetos que desenvolvi na prática</p>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-image">
+          <img src="../Portfólio - Ana Carolina Gonçalves/certificados/visu.jpeg">
+        </div>
+        <div class="project-info">
+          <h3>Fanáticos FC</h3>
+          <p>Marketplace de camisetas com o mais incrível provador virtual com IA.</p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>PHP</span>
+            <span>IA</span>
+          </div>
+          <button class="project-btn"
+            onclick="window.open('https://provador-virtual-1.onrender.com/?camisa=https%3A%2F%2Fres.cloudinary.com%2Fdxozpiewj%2Fimage%2Fupload%2Fv1762169539%2Fprodutos%2Fzm0izqclkns1abpqp6ay.webp&nome=Camisa+Topper+Corinthians+Mundial+Retro+%282000%29+-+Home')">
+            Ver Projeto
+          </button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image">
+          <img src="../Portfólio - Ana Carolina Gonçalves/certificados/princesa.jpeg">
+        </div>
+        <div class="project-info">
+          <h3>Princesa Peach Runner</h3>
+          <p>Joguinho maravilhoso da princesa</p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <a href="../Portfólio - Ana Carolina Gonçalves/certificados/joguinho (3).rar" download>
+            <button class="project-btn">Baixar Projeto</button>
+          </a>
+        </div>
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <div id="pdf-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <iframe id="pdf-viewer" src="" frameborder="0"></iframe>
+    </div>
+  </div>
+
+  <section id="contato" class="contact">
+    <h2>Vamos Conversar?</h2>
+    <p>Me encontre nas plataformas ou entre em contato direto 💬</p>
+
+    <div class="contact-container">
+
+      <div class="contact-links">
+
+        <a href="https://github.com/goncalvesanacarol76-lab" target="_blank" class="contact-card">
+          <div>
+            <strong>GitHub</strong>
+            <p>Veja meus projetos e códigos</p>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/ana-carolina-gon%C3%A7alves-7a7706378/" target="_blank"
+          class="contact-card">
+          <div>
+            <strong>LinkedIn</strong>
+            <p>"www.linkedin.com/in/ana-carolina-gonçalves-7a7706378"</p>
+            <p>Conecte-se comigo</p>
+          </div>
+        </a>
+
+        <a href="https://mail.google.com/mail/u/0/#inbox" class="contact-card">
+          <div>
+            <strong>Email</strong>
+            <p>goncalves.anacarol76@gmail.com</p>
+            <p>Entre em contato direto</p>
+          </div>
+        </a>
+
+        <a href="https://www.instagram.com/_anacaroll5?igsh=cDRiaDJ1cmNsdWZu" target="_blank" class="contact-card">
+          <div>
+            <strong>Instagram</strong>
+            <p>Veja meu lado mais pessoal</p>
+          </div>
+        </a>
+
+      </div>
+
+      <!-- QR CODE -->
+      <div class="qr-section">
+        <h3>Venha me conhecer melhor</h3>
+        <div class="qr-box">
+          <img src="../Portfólio - Ana Carolina Gonçalves/certificados/QFrhTL.png">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>Feito com amor por Ana Carolina Gonçalves</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
